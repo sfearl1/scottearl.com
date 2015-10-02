@@ -1,0 +1,9 @@
+// Import Dan Eden's Animate.css library
+@import "_animate";
+
+@include animate($class: true);
+
+.animated {
+	@include animation-duration(1s);
+    @include animation-fill-mode(both);
+}

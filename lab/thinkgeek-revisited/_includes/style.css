@@ -1,0 +1,34 @@
+html, body { 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	height: 3000px; 
+	}
+	
+html { 
+	background-color: #404143;
+	background-image: -webkit-linear-gradient(bottom, black 5%, #404143, #404143) !important;
+	background-image: -moz-linear-gradient(bottom, black 5%, #404143, #404143) !important;
+	background-image: linear-gradient(bottom, black 5%, #404143, #404143) !important;
+	}
+	
+body:before {
+	background: url("../_images/robozombies7.png") bottom left repeat-x;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	}
+	
+#container { 
+	position: relative; 
+	margin: 0 auto; 
+	width: 980px; 
+	height: 3000px; 
+	}
+
+/* other presentational styles */
+h1 { font-family: arial; font-style: italic; font-size: 50px; text-shadow: rgba(0,0,0,.15) 0 5px 5px; text-align: center; position: relative; top: 20px; }	
+pre { width: 850px !important; position: relative; top: 50px !important;}
+#container { background-color: #eaeaea; border: solid 1px black; -webkit-box-shadow: rgba(0,0,0,.85) 0 0 15px, rgba(0,0,0,.15) 0 0 15px inset; -moz-box-shadow: rgba(0,0,0,.85) 0 0 15px, rgba(0,0,0,.15) 0 0 15px inset; box-shadow: rgba(0,0,0,.85) 0 0 15px, rgba(0,0,0,.15) 0 0 15px inset; }

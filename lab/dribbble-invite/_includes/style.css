@@ -1,0 +1,143 @@
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------- font-face: fontin-sans ------- */
+
+@font-face {
+	font-family: 'FontinSansSmallCaps';
+	src: url('webfonts/fontin_sans_sc_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_sc_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_sc_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_sc_45b-webfont.svg#webfontT6Q4PlOH') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FontinSansBoldItalic';
+	src: url('webfonts/fontin_sans_bi_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_bi_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_bi_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_bi_45b-webfont.svg#webfontIfPoJ7Qs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FontinSansItalic';
+	src: url('webfonts/fontin_sans_i_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_i_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_i_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_i_45b-webfont.svg#webfontMczYtuV3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FontinSansRegular';
+	src: url('webfonts/fontin_sans_r_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_r_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_r_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_r_45b-webfont.svg#webfontnMVmZD7c') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FontinSansBold';
+	src: url('webfonts/fontin_sans_b_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_b_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_b_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_b_45b-webfont.svg#webfontNKh4YenN') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueMedium';
+	src: url('webfonts/helveticaneueltstd-md-webfont.eot');
+	src: local('☺'), url('webfonts/helveticaneueltstd-md-webfont.woff') format('woff'), url('webfonts/helveticaneueltstd-md-webfont.ttf') format('truetype'), url('webfonts/helveticaneueltstd-md-webfont.svg#webfontZ7sYC4iL') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueBold';
+	src: url('webfonts/helveticaneueltstd-bd-webfont.eot');
+	src: local('☺'), url('webfonts/helveticaneueltstd-bd-webfont.woff') format('woff'), url('webfonts/helveticaneueltstd-bd-webfont.ttf') format('truetype'), url('webfonts/helveticaneueltstd-bd-webfont.svg#webfontKwxxtLRp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FontinSansBoldItalic';
+	src: url('webfonts/fontin_sans_bi_45b-webfont.eot');
+	src: local('☺'), url('webfonts/fontin_sans_bi_45b-webfont.woff') format('woff'), url('webfonts/fontin_sans_bi_45b-webfont.ttf') format('truetype'), url('webfonts/fontin_sans_bi_45b-webfont.svg#webfontIfPoJ7Qs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body { background: url("../_images/dribbble-bg-canvas.jpg") repeat; text-align: center; border-top: solid 2px rgb(255,255,255); padding-top: 10px; }
+header, section, hr { width: 750px; }
+header, section { margin: 0 auto; display: block; position: relative; }
+img#logo { position: relative; top: -120px; margin-bottom: -120px; }
+img#hero { position: absolute; top: -25px; left: 120px; }
+canvas { position: relative; top: 25px; -moz-border-radius: 2px; -webkit-border-radius: 2px; margin-bottom: 21px; }
+#cageOverlay { position: relative; top: -239px; left: 15px; margin-bottom: -178px; height: 260px; overflow: hidden; }
+.cageBars { height: 260px; width: 18px; margin-right: 35px; display: inline-block; -moz-border-radius: 4px; -webkit-border-radius: 4px; background: -moz-linear-gradient(center right,rgb(187,187,187) 15%, rgb(255,255,255) 50%,rgb(234,234,234) 85%); background: -webkit-gradient(linear, left top, right top, color-stop(0.07, rgb(186,187,187)), color-stop(0.5, rgb(255,255,255)), color-stop(1, rgb(187,187,187))); -moz-box-shadow: 8px 0 25px rgba(0,0,0,.3); -webkit-box-shadow: 8px 0 25px rgba(0,0,0,.3); }
+hr { border-color: transparent; height: 0; border-top: 1px solid #aaa; border-bottom: 1px solid #fff; }
+h1,h2,h3,.h2 { line-height: normal; text-shadow: 0 2px 0 rgb(255,255,255); }
+h2,.h2 { color: #777; font-size: 24px; font-weight: normal; margin-bottom: 20px; }
+h2, .h2, a#tweet, a#copyright { font-family: "HelveticaNeueMedium", Arial, Helvetica, sans-serif; }
+h2 strong,.h2 strong, a#tweet strong { font-family: 'HelveticaNeueBold', Arial, Helvetica, sans-serif; font-weight: normal; } 
+h2 strong,.h2 strong { color: #434950; }
+h1,h3 { font-family: 'FontinSansBoldItalic', Arial, Helvetica, sans-serif; font-size: 30px; color: #295472; line-height: 2;}
+h1 { text-align: left; }
+.h2 strong { display: inline-block; line-height: 50px; margin: 0 20px; }
+h3 strong { font-family: 'FontinSansItalic', Arial, Helvetica, sans-serif; line-height: 3; text-decoration: underline; }
+.button { margin: 40px 0 50px; -moz-border-radius: 8px; -webkit-border-radius: 5px; color: rgb(255,255,255); line-height: 50px; height: 50px; text-decoration: none; display: inline-block; padding: 0 20px; font-family: 'FontinSansBoldItalic', Arial, Helvetica, sans-serif; font-size: 30px; }
+.button#yes { background: -moz-linear-gradient(center bottom,rgb(234,76,136) 49%, rgb(237,98,150) 50%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.5, rgb(234,76,134)),color-stop(0.5, rgb(237,98,149)), color-stop(1, rgb(237,98,149))); }
+.button#yes:hover { background: rgb(223,62,123); }
+.button#no { background: -moz-linear-gradient(center bottom,rgb(41,84,114) 49%, rgb(67,105,131) 50%); background: -webkit-gradient(linear,left bottom,left top,color-stop(0.5, rgb(41,84,114)),color-stop(0.5, rgb(67,105,131)),color-stop(1, rgb(67,105,131))); }
+.button#no:hover { background: rgb(64,131,169); }
+a#tweet, a#copyright { color: #adbdc7; }
+a#tweet { font-size: 20px; clear: both; display: block; text-decoration: none; background: url("../_images/tweetin.gif") no-repeat 18px -5px transparent; line-height: 28px; margin-bottom: 30px; }
+#copyright { font-size: 12px; position: relative; bottom: -20px; display: block; padding-bottom: 10px;}

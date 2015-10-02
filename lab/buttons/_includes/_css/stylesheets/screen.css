@@ -1,0 +1,360 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+@charset "UTF-8";
+/* line 9, ../src/screen.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 14, ../src/screen.scss */
+body {
+  background-color: #f0f0f0;
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.6)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.6)), color-stop(0.75, rgba(255, 255, 255, 0.199219)), color-stop(0.75, transparent), to(transparent));
+}
+
+/* line 20, ../src/screen.scss */
+header, section, footer {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 27, ../src/screen.scss */
+h1 {
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 150px;
+  margin-bottom: 15px;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* line 45, ../src/screen.scss */
+h2 {
+  color: #7a7a7a;
+  font-style: italic;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* line 52, ../src/screen.scss */
+a {
+  color: #7a7a7a;
+}
+
+/* line 103, ../src/screen.scss */
+.gelly.blue {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -khtml-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #0099cc;
+  -moz-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ccf2ff), color-stop(100%, #0099cc));
+  background-image: -moz-linear-gradient(top, #ccf2ff 0%, #0099cc 100%);
+  background-image: linear-gradient(top, #ccf2ff 0%, #0099cc 100%);
+  border: 1px solid #0099cc;
+  color: white;
+  clear: left;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 26px;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.2, transparent), color-stop(0, transparent), color-stop(0, transparent), color-stop(0, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+/* line 79, ../src/screen.scss */
+.gelly.blue:before {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  content: "";
+  display: block;
+  height: 13px;
+  left: 5%;
+  position: absolute;
+  top: 1px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0.45)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  width: 91%;
+}
+/* line 90, ../src/screen.scss */
+.gelly.blue:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #66d9ff), color-stop(100%, #007399));
+  background-image: -moz-linear-gradient(top, #66d9ff 0%, #007399 100%);
+  background-image: linear-gradient(top, #66d9ff 0%, #007399 100%);
+  border: 1px solid #007399;
+}
+/* line 94, ../src/screen.scss */
+.gelly.blue:active {
+  cursor: pointer;
+  top: 1px;
+}
+/* line 106, ../src/screen.scss */
+.gelly.gray {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -khtml-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #252424;
+  -moz-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a5a3a3), color-stop(100%, #252424));
+  background-image: -moz-linear-gradient(top, #a5a3a3 0%, #252424 100%);
+  background-image: linear-gradient(top, #a5a3a3 0%, #252424 100%);
+  border: 1px solid #252424;
+  color: white;
+  clear: left;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 26px;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.2, transparent), color-stop(0, transparent), color-stop(0, transparent), color-stop(0, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+/* line 79, ../src/screen.scss */
+.gelly.gray:before {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  content: "";
+  display: block;
+  height: 13px;
+  left: 5%;
+  position: absolute;
+  top: 1px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0.45)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  width: 91%;
+}
+/* line 90, ../src/screen.scss */
+.gelly.gray:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #736f6f), color-stop(100%, #0b0b0b));
+  background-image: -moz-linear-gradient(top, #736f6f 0%, #0b0b0b 100%);
+  background-image: linear-gradient(top, #736f6f 0%, #0b0b0b 100%);
+  border: 1px solid #0b0b0b;
+}
+/* line 94, ../src/screen.scss */
+.gelly.gray:active {
+  cursor: pointer;
+  top: 1px;
+}
+/* line 109, ../src/screen.scss */
+.gelly.purple {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -khtml-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #5b368c;
+  -moz-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #dfd3ee), color-stop(100%, #5b368c));
+  background-image: -moz-linear-gradient(top, #dfd3ee 0%, #5b368c 100%);
+  background-image: linear-gradient(top, #dfd3ee 0%, #5b368c 100%);
+  border: 1px solid #5b368c;
+  color: white;
+  clear: left;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 26px;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.2, transparent), color-stop(0, transparent), color-stop(0, transparent), color-stop(0, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+/* line 79, ../src/screen.scss */
+.gelly.purple:before {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  content: "";
+  display: block;
+  height: 13px;
+  left: 5%;
+  position: absolute;
+  top: 1px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0.45)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  width: 91%;
+}
+/* line 90, ../src/screen.scss */
+.gelly.purple:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a889d2), color-stop(100%, #432867));
+  background-image: -moz-linear-gradient(top, #a889d2 0%, #432867 100%);
+  background-image: linear-gradient(top, #a889d2 0%, #432867 100%);
+  border: 1px solid #432867;
+}
+/* line 94, ../src/screen.scss */
+.gelly.purple:active {
+  cursor: pointer;
+  top: 1px;
+}
+/* line 112, ../src/screen.scss */
+.gelly.green {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -khtml-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #029d20;
+  -moz-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 2px 2px 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a0feb2), color-stop(100%, #029d20));
+  background-image: -moz-linear-gradient(top, #a0feb2 0%, #029d20 100%);
+  background-image: linear-gradient(top, #a0feb2 0%, #029d20 100%);
+  border: 1px solid #029d20;
+  color: white;
+  clear: left;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 26px;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.2, transparent), color-stop(0, transparent), color-stop(0, transparent), color-stop(0, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+/* line 79, ../src/screen.scss */
+.gelly.green:before {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  content: "";
+  display: block;
+  height: 13px;
+  left: 5%;
+  position: absolute;
+  top: 1px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0.45)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.45) 100%);
+  width: 91%;
+}
+/* line 90, ../src/screen.scss */
+.gelly.green:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #3bfd61), color-stop(100%, #016b16));
+  background-image: -moz-linear-gradient(top, #3bfd61 0%, #016b16 100%);
+  background-image: linear-gradient(top, #3bfd61 0%, #016b16 100%);
+  border: 1px solid #016b16;
+}
+/* line 94, ../src/screen.scss */
+.gelly.green:active {
+  cursor: pointer;
+  top: 1px;
+}

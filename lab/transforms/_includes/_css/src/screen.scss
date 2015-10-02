@@ -1,0 +1,97 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+html {
+	height: 100%;
+	width: 100%;
+	}
+body {
+	background: url("../../../_includes/_images/bg.jpg") no-repeat center top;	
+	height: 100%;
+	width: 100%;
+	}
+#beam {
+	background: url("../../../_includes/_images/beam.png") no-repeat center;
+	height: 699px;
+	left: 50%;
+	margin-left: -349px;
+	opacity: .8;
+	position: absolute;
+	width: 699px;
+	-webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         10s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+
+	}
+	@-webkit-keyframes rotate {
+	  from {
+	    -webkit-transform: rotate(0deg);
+	  }
+	  to { 
+	    -webkit-transform: rotate(360deg);
+	  }
+	}
+#foreground {
+	display: block;
+	background: url("../../../_includes/_images/fg.png") no-repeat center top;
+	height: 750px;
+	top: 234px;
+	position: absolute;
+	width: 100%;
+	}
+#ETLeft {
+	background: url("../../../_includes/_images/et-left.png") no-repeat center;
+	height: 180px;
+	width: 250px;
+	right: 68%;
+	position: absolute;
+	top: 170px;
+	}
+#ETRight {
+	background: url("../../../_includes/_images/et-right.png") no-repeat center;
+	display: none;
+	height: 180px;
+	width: 250px;
+	left: 0;
+	position: absolute;
+	top: 170px;
+	}
+
+@media only screen and (max-device-width: 1920px) {
+	#ETLeft {
+		right: 68%;
+		}
+	#ETRight {
+		display: block;
+		left: 66%;
+		}
+
+	}
+
+p {
+	font-family: arial;
+	font-size: 50px;
+	position: relative;
+	top: 400px;
+	color: rgba(255,255,255,.1);
+	@include text-shadow(rgba(0,0,0,.5), 0, 0, 25px);
+
+	z-index: 999;
+	}
+
+.line1 {
+	@include transform(1, 8deg, 0, 0, 0deg, -35deg);
+	position: absolute;
+	left: 180px;
+	}
+.line2 {
+	@include transform(1, -8deg, 0, 0, 0deg, 35deg);
+	position: absolute;
+	right: 200px;
+	}

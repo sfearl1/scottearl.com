@@ -1,0 +1,20 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@font-face {
+    font-family: 'nasa';
+    src: url('../font/nasa/nasa-webfont.eot');
+    src: url('../font/nasa/nasa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/nasa/nasa-webfont.woff') format('woff'),
+         url('../font/nasa/nasa-webfont.ttf') format('truetype'),
+         url('../font/nasa/nasa-webfont.svg#NasaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#logo { font-family: "nasa"; font-weight: bold; font-size: 42px; }

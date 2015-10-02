@@ -1,0 +1,77 @@
+@import "compass/css3";
+
+	ul {
+		behavior: url("PIE.htc");
+		li {
+			behavior: url("PIE.htc");
+			&:first-child {
+				a {
+					behavior: url("PIE.htc");
+					}
+				}
+			}
+
+		a {
+			behavior: url("PIE.htc");
+			}
+
+		.search {
+			background: transparent url("../../_images/search.png") left top no-repeat !important;
+			line-height: 20px !important;
+			behavior: url("PIE.htc");
+		    }
+
+	
+	&.light {
+		@include box-shadow(none);
+		-pie-background: linear-gradient(color-stops(#dedede, #c6c6c6 52%, #bcbcbc 52%, #858585 100%));
+		a {
+			-pie-background: linear-gradient(color-stops(#dedede, #c6c6c6 52%, #bcbcbc 52%, #858585 100%));
+			&:hover {
+				-pie-background: linear-gradient(color-stops(#bebebe, #acacac 52%, #9c9c9c 52%, #656565 100%));
+				}
+			&.active {
+				-pie-background: linear-gradient(color-stops(#8a8a8a, #bdbdbd));
+				}
+			}
+		.search {
+			-pie-background: linear-gradient(color-stops(#eee, #d6d6d6 52%, #ccc 52%, #959595 100%), top, url("../../_images/search.png"));
+			}
+		}	
+
+	
+	&.medium {
+		@include box-shadow(none);
+	   -pie-background: linear-gradient(color-stops(#888888, #727272 52%, #5e5e5e 52%, #757575 100%));
+	   a {
+			-pie-background: linear-gradient(color-stops(#888888, #727272 52%, #5e5e5e 52%, #757575 100%));
+			&:hover {
+				-pie-background: linear-gradient(color-stops(#636363, #4a4a4a 52%, #3b3b3b 52%, #474747 100%));
+				}
+			&.active {
+				-pie-background: linear-gradient(color-stops(#3a3a3a, #6d6d6d));
+				}
+	   		}
+		.search {
+			-pie-background: linear-gradient(color-stops(#999, #828282 52%, #6e6e6e 52%, #858585 100%), top, url("../../_images/search.png"));
+			}
+	   }	
+	
+	
+	&.dark {
+		@include box-shadow(none);
+		-pie-background: linear-gradient(color-stops(#8e8e8e, #555555 52%, #303030 52%, #0f0f0f 100%));
+		a {
+			-pie-background: linear-gradient(color-stops(#8e8e8e, #555555 52%, #303030 52%, #0f0f0f 100%));
+			&:hover {
+				-pie-background: linear-gradient(color-stops(#6e6e6e, #333 52%, #101010 52%, #000 100%));
+				}
+			&.active {
+				-pie-background: linear-gradient(color-stops(#0a0a0a, #3d3d3d));
+				}
+			}
+		.search {
+			-pie-background: linear-gradient(color-stops(#9e9e9e, #666 52%, #404040 52%, #1f1f1f 100%), top, url("../../_images/search.png"));
+			}
+		}
+	}
